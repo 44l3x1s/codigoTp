@@ -1,0 +1,32 @@
+{
+	"Artista":"Juan",
+	"nombre":"la gioconda",
+	"autor":"Leonardo da Vinci",
+	"fecha de publicacion":"12/04/1999",
+	"tipo":"original",
+	"coordenadas":[{
+		"latitud":"-34.5221554", 
+		"longitud":"-58.7000067"
+	}],
+	"Artista":"Pedro",	
+	"nombre":"la noche estrellada",
+	"autor":"Vicent Van Gogh",
+	"fecha de publicacion":"18/12/1889",
+	"tipo":"original",
+	"coordenadas":[{
+		"latitud":"-34.516380", 
+		"longitud":"-58.706056",     
+	}],
+	"Artista":"Pablo",
+	"nombre":"guernica",
+	"autor":"Pablo Picazzo",
+	"fecha de publicacion":"10/11/1999",	
+	"tipo":"copia",
+	"coordenadas":[{
+		"latitud":"-34.520659", 
+		"longitud":"-58.707644"
+	}]
+	
+		
+
+}

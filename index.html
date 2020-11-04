@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<meta charset="utf-8">
 	<title>Mostrar Mapa</title>
@@ -32,21 +32,22 @@
 					<input type="text" name="autor" id="autor" placeholder="ingrese autor"/>
 
 					<label for="publicacion" />Fecha de publicacion</label>
-					<input type="text" name="publicacion" id="publicacion" placeholder="dd/mm/1999" />
+					<input type="date" name="publicacion" id="publicacion" placeholder="dd/mm/aaaa" />
   
 					  <p>
 					    Tipo:
-					    <select name="tipo">
+					    <select name="tipo" id="tipo">
 					      <option>Original</option>
 					      <option>Copia</option>
 					    </select>
 					  </p>
 
-					<label for="mensaje">Detalle</label>
-					<textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
-					
-					<input type="submit" name="enviar" value="buscar cuadro"/>
-			 </ul>
+					<label for="mensaje">Descripcion</label>
+					<textarea disabled name="mensaje" for="mensaje" placeholder="Descripcion de su busqueda" maxlength="300"></textarea>
+
+					<button type="button" id="boton1" onclick="buscar()">Search</button>
+
+			</ul>
 			
 		</form>
 		
