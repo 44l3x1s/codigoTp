@@ -10,10 +10,10 @@
     <script src="./leaflet/leaflet.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="./stylo.css">
-	<script src="./js/mapCreation.js"></script>
-	<script src="./js/drawer.js"></script>
-
-
+<!--<script src="./js/mapCreation.js"></script>-->
+<!--<script src="./js/drawer.js"></script>-->
+	<script src="./js/cuadros.js"></script>
+	<script src="./js/main_c.js"></script>
 
 </head>
 <body background="./leaflet/images/cuadro.jpg">
@@ -43,9 +43,11 @@
 					  </p>
 
 					<label for="mensaje">Descripcion</label>
-					<textarea disabled name="mensaje" for="mensaje" placeholder="Descripcion de su busqueda" maxlength="300"></textarea>
+					<textarea id="area" name="mensaje" for="mensaje" placeholder="Descripcion de su busqueda" disabled ></textarea>
+				<!--	<textarea id="area" readonly="true"> -->
 
-					<button type="button" id="boton1" onclick="buscar()">Search</button>
+
+					<button type="button" id="boton1" onclick="comparar()">Search</button>
 
 			</ul>
 			
