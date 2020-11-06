@@ -2,31 +2,31 @@ var cuadros = [];
 cuadros.push({
 		nombre:"La gioconda",
 		autor:"Juan",
-		tipo:"original"
+		tipo:"original",
+		url:"./images/gioconda.jpeg"
 	},
 	{
 		nombre:"La noche estrellada",
 		autor:"Vicent Van Gogh",
-		tipo:"copia"	
+		tipo:"copia",
+		url:"./images/estrellada.jpeg"
 	},
 	{
 		nombre:"guernica",
 		autor:"Pablo Picazzo",
-		tipo:"original"	
-	}
+		tipo:"original",
+		url:"./images/guernica.jpeg"
+	},
+	{
+		nombre:"El beso",
+		autor:"Pedro",
+		tipo:"copia",
+		url:"./images/elbeso.jpeg"
+	},
+	{
+		nombre:"La joven Perla",
+		autor:"Johannes Vermer",
+		tipo:"original",
+		url:"./images/perla.jpeg"
+	}		
 );
-
-/*console.log(cuadros[0].nombre);
-console.log(cuadros[0].autor);
-console.log(cuadros[0].tipo);
-
-
-console.log(cuadros[1].nombre);
-console.log(cuadros[1].autor);
-console.log(cuadros[1].tipo);
-recorrer el objeto
-
-for (var i = 0; i <= cuadros.length-1; i++) {
-	console.log(cuadros[i].nombre);
-}
-*/
